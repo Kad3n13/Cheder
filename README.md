@@ -108,6 +108,55 @@ Skills Learned & Areas of Expertise
 - Share progress through YouTube tutorials and blog posts  
 
 ---
+## stdio-like Implementation Status
+
+### What I’ve Got Done So Far  
+- Core file I/O:  
+  `c()` (fclose), `o()` (fopen), `fr()` (fread), `fw()` (fwrite), `fsk()` (fseek), `ft()` (ftell), `rw()` (rewind)  
+- Basic char I/O:  
+  `gchr()` (fgetc), `gc()` (getchar), `fpc()` (fputc), `pc()` (putc), `pchr()` (putchar)  
+- String I/O:  
+  `getl()` (fgets), `fps()` (fputs), `ps()` (puts)  
+- File management:  
+  `r()` (remove), `rn()` (rename)  
+- Error and EOF checks:  
+  `e()` (feof), `err()` (ferror)  
+- Aliases:  
+  `gct()` (getc alias)  
+
+### What’s Stubbed (Implemented but Not Fully Working)  
+- Formatted I/O functions (just stubs returning -1):  
+  `fp()` (fprintf), `pf()` (printf), `fs()` (fscanf), `snp()` (snprintf), `sp()` (sprintf), `ssf()` (sscanf)  
+
+### What I’m Still Missing / Need to Add  
+- Buffering stuff: `setbuf()`, `setvbuf()`, `fflush()`  
+- Stream control: `freopen()`, `clearerr()`  
+- Error reporting: `perror()`  
+- Temporary files: `tmpfile()`, `tmpnam()`  
+- Standard streams: `stdin`, `stdout`, `stderr`  
+- Macros like `getc()`, `putc()`  
+
+---
+## MISSING 
+I’m missing about 15 functions or features to fully cover stdio.h:
+
+Buffering: setbuf(), setvbuf(), fflush()
+
+Stream control: freopen(), clearerr()
+
+Error reporting: perror()
+
+Temporary files: tmpfile(), tmpnam()
+
+Standard streams: stdin, stdout, stderr (global FILE pointers)
+
+Macros: getc(), putc() (usually simple wrappers around existing functions)
+
+That’s roughly 15 core things still needed beyond what I’ve implemented or stubbed so far.
+
+### Summary
+
+Right now, I have about **24** core functions either fully done or stubbed, covering the basic file and char I/O without buffering or formatting.
 
 <details>
 <summary><strong>Show Social Badges & More Info</strong></summary>
