@@ -1,3 +1,26 @@
+| Custom Name | Standard Function  | Description                   |
+| ----------- | ------------------ | ----------------------------- |
+| c()         | fclose()           | Closes a file                 |
+| e()         | feof()             | Checks end-of-file            |
+| err()       | ferror()           | Checks file error             |
+| gchr()      | fgetc()            | Gets a char from a file       |
+| gc()        | getchar()          | Gets char from stdin          |
+| getl()      | fgets()            | Reads a line from file        |
+| o()         | fopen()            | Opens a file                  |
+| fpc()       | fputc()            | Writes a char to a file       |
+| pc()        | putc() / putchar() | Writes a char to stdout/file  |
+| fps()       | fputs()            | Writes string to file         |
+| fr()        | fread()            | Reads block from file         |
+| fsk()       | fseek()            | Moves file pointer            |
+| ft()        | ftell()            | Returns file pointer position |
+| fw()        | fwrite()           | Writes block to file          |
+| pchr()      | putchar()          | Outputs a char to stdout      |
+| ps()        | puts()             | Outputs a string to stdout    |
+| rn()        | rename()           | Renames a file                |
+| rw()        | rewind()           | Resets file pointer to start  |
+| rm()        | remove()           | Deletes a file                |
+
+<br>
 https://files.catbox.moe/b6m7nw.mp4
 
 <!-- Social Links -->
