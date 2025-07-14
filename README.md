@@ -88,7 +88,7 @@ Skills Learned & Areas of Expertise
 ---
 
 ## Tech Stack & Languages
-=====================================================================================
+
 | Language         | Level             | Notes                                      |
 |------------------|-------------------|--------------------------------------------|
 | C                | Intermediate      | Pure C from scratch, low-level libs        |
@@ -97,7 +97,7 @@ Skills Learned & Areas of Expertise
 | JavaScript       |  Beginner         | Web tooling, bootloader scripting          |
 | Python           | Beginner          | Automation, scripting, testing             |
 | Markdown & HTML   | Fluent           | Documentation, READMEs                     |
- -----------------------------------------------------------------------------------
+
 
 ## Future Plans
 
